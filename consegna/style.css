@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 100%;
+}
+main{
+    width: calc();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7cffd2;
+    height: 80vh;
+}
+.grid-container{
+    width: 0px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;  
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.add-color-onClick{
+    background-color: #6495f1; 
+    color: white;
+}
+.number-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    aspect-ratio: 1;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
